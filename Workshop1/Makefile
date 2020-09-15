@@ -10,9 +10,9 @@ MAIN2=exercise2
 
 
 run-ex1:
-	@$(CC) -o $(MAIN1).o $(MAIN1).c $(LIB_FLAGS)
-	@./$(MAIN1).o
+	@$(CC) -o $(MAIN1) $(MAIN1).c $(LIB_FLAGS)
+	@./$(MAIN1)
 
 run-ex2:
-	@$(CC) -o $(MAIN2).o $(MAIN2).c $(LIB_FLAGS)
-	@./$(MAIN2).o
+	@$(CC) -o $(MAIN2) $(MAIN2).c $(LIB_FLAGS)
+	@./$(MAIN2)
