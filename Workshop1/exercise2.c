@@ -8,8 +8,9 @@ pthread_mutex_t lock;
 
 
 /**
- * This function add one to a global variable.
+ * This function adds one to a global variable.
  * 
+ * Params:
  *      - void* args - pthread id.
  */
 void add(void* args)
