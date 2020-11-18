@@ -33,6 +33,10 @@
 *.o
 *.app
 
+# Folders
+*libs/
+*obj/
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
